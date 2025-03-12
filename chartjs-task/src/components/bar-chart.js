@@ -4,10 +4,19 @@ import { Bar } from "react-chartjs-2";
 function BarChart () {
     return (
         <Bar data={{
-            labels: ["TcgPlayer","eBay","Amazon","CoolStuffInc"],
+            labels: ["Phone","Email","Social Media","In-Person","Fax"],
             datasets: [{
-                label: 'Dataset 1',
-                data: [2.69,4.95,6.18,3.99]
+                label: 'Cape Town Branch Contacts',
+                data: [5,9,7,5,1],
+                backgroundColor: '#d1aa96'
+            },{
+                label: 'Pretoria Branch Contacts',
+                data: [10,6,3,1,0],
+                backgroundColor: '#109727'
+            },{
+                label: 'Durban Branch Contacts',
+                data: [11,4,5,2,2],
+                backgroundColor: '#ab71c7'
             }]
         }}/>
     )
