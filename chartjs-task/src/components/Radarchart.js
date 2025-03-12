@@ -44,7 +44,7 @@ export const data = {
 const Radarchart = () => {
     return (
         <div className='justify-content-center'>
-            <Radar data={data} style={{width: '40%', marginLeft:'20vh'}}/>
+            <Radar data={data} style={{width: '40%', height: 'auto', marginLeft:'20vh'}}/>
         </div>
     );
 };
