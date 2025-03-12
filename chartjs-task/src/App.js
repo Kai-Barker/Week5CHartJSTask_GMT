@@ -10,12 +10,13 @@ function App() {
   return (
     <Router>
       <Navbar />
-     
-      <Routes>
+      <div style={{marginLeft:'10vh'}}>
+        <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
-      </Routes>
+        </Routes>
+      </div>
     </Router>
   );
 }
