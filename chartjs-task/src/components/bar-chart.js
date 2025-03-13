@@ -3,6 +3,7 @@ import { Bar } from "react-chartjs-2";
 
 function BarChart () {
     return (
+        <div className="d-flex flex-column justify content-end">
         <Bar data={{
             labels: ["Phone","Email","Social Media","In-Person","Fax"],
             datasets: [{
@@ -19,6 +20,7 @@ function BarChart () {
                 backgroundColor: '#ab71c7'
             }]
         }}/>
+        </div>
     )
 }
 
