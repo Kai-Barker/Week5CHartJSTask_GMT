@@ -20,8 +20,8 @@ const DonutChart = () => {
                     data: [30, 50, 20],
                     backgroundColor: [
                         "#FF7E4F",
-                      "#E12532", // Soft yellow
-                      "#2D4718", // Soft blue
+                      "#E12532", 
+                      "#2D4718", 
                     ],
                     borderColor: "transparent",
                     borderWidth:0,
