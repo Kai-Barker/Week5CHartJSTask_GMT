@@ -6,7 +6,7 @@ import BarChart from "./bar-chart";
 
 function Home() {
   return (
-  <div>
+  <div style={{display:'flex', flexDirection:'column' , alignItems:'center'}}>
     <Radar />
     <DonutChart/>
     <BarChart/>
